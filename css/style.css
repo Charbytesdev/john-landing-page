@@ -1,0 +1,16 @@
+body {
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10em;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 5em;
+  font-weight: bold;
+  color: rgb(151, 31, 175);
+}
