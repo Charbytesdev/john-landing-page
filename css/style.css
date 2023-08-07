@@ -1,8 +1,10 @@
 body {
-  height: 100%;
   background-image: url("../img/background.jpeg");
-  background-repeat: no-repeat;
+  height: 100%;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 .container {
   display: flex;
