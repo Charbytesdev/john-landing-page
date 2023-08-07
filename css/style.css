@@ -62,3 +62,12 @@ body {
 .footer:nth-child(4) {
   transition-delay: 800ms;
 }
+
+@media (max-width: 40em) {
+  .text {
+    font-size: 3.5em;
+  }
+  .footer {
+    font-size: 1.3em;
+  }
+}
