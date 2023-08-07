@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Luckiest Guy";
+  src: url("../assets/font/luckiest-guy-v18-latin-regular.woff2")
+    format("woff2");
+}
+
 body {
   background-image: url("../img/background.jpeg");
   height: 100%;
@@ -5,6 +11,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  font-family: "Luckiest Guy";
 }
 .container {
   display: flex;
@@ -15,7 +22,7 @@ body {
 }
 
 .text {
-  font-size: 5em;
+  font-size: 6em;
   font-weight: bold;
   color: rgb(151, 31, 175);
 }
